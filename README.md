@@ -36,6 +36,7 @@ To use this application, after installing required dependencies, type [node inde
 ![screenshot](https://user-images.githubusercontent.com/85942489/137644877-6d2a77e5-7ac6-4706-9030-c3b234f173a9.JPG)
 
 ## Demo Video
+Clink the link to see a demonstration of the app!
 https://youtu.be/yLyqxoR8gpc
 
 ## Contributes
