@@ -21,8 +21,8 @@ ${data.Description}
 - [Screenshot](#Screenshot)
 - [License](#License)
 - [Credits](#Credits)
-- [Contribution](#contribution)
-- [Contact Me](#Questions)
+- [Contribution](#contributes)
+- [Contact Me](#Contact)
 
 ## Installation:
 You must have the following dependencies installed to run this application.<br>
@@ -32,21 +32,19 @@ ${data.Installation}
 To use this application, type [${data.Usage}] in the terminal.
 
 ## Screenshot
- ${data.Screenshot}
+![](${data.Screenshot})
 
-## How to Contribute
+## Contribution
 ${data.contribution}
 
 ## License
-
-![license](https://img.shields.io/badge/license-${data.License}-green)
 
 This application is covered by the ${data.License} license. 
 
 ## Credits
 ${data.Credits}
 
-## Contact Me
+## Contact
 Find me on GitHub: [${data.Username}](https://github.com/${data.Username})
 
 Email me with any questions: ${data.Email}
@@ -54,3 +52,4 @@ Email me with any questions: ${data.Email}
 }
 
 module.exports = generateMarkdown;
+
