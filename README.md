@@ -21,7 +21,7 @@ A command-line application that dynamically generates a professinal README.md fi
 - [License](#License)
 - [Credits](#Credits)
 - [Contribution](#Contributes)
-- [Contact Me](#Questions)
+- [Contact Me](#Contact)
 
 ## Installation:
 1. Fork repository
