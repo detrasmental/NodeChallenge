@@ -21,7 +21,7 @@ A command-line application that dynamically generates a professinal README.md fi
 - [License](#License)
 - [Credits](#Credits)
 - [Contribution](#Contributes)
-- [Contact Me](#ContactMe)
+- [Contact Me](#Contact)
 
 ## Installation:
 1. Fork repository
@@ -46,7 +46,7 @@ This application is covered by the MIT license.
 ## Credits
 Jesus H. Christ! No seriously, this was hard. I spent A LOT of time on YouTube and Github watching tutorials and reading repositories on how to add certain aspects. 
 
-## Contact Me
+## Contact
 Find me on GitHub: [detrasmental](https://github.com/detrasmental)
 
 Email me with any questions: detra.gordon@gmail.com
