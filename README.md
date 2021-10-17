@@ -26,7 +26,8 @@ A command-line application that dynamically generates a professinal README.md fi
 ## Installation:
 1. Fork repository
 2. Clone repository 
-3. From the terminal, run npm install to install required dependencies (inquirer, fs)
+3. From the terminal, run npm init
+4. npm install to install required dependencies (inquirer, fs)
 
 ## Usage
 To use this application, after installing required dependencies, type [node index] in the terminal (minus the []).
