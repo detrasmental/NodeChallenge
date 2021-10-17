@@ -6,6 +6,7 @@ const utils = require("util");
 
 const generateMarkdown = require("./utils/generateMarkdown")
 
+
 // TODO: Create an array of questions for user input
 const questions = [
     
@@ -56,15 +57,35 @@ const questions = [
     {
         type: 'input',
         name: 'Table of Contents.',
-        message: "A Table of Contents template has been provided for you, add and delete as needed after README generation."
+        message: "A Table of Contents template has been provided for you, add and delete contents as needed after your README has been generated."
     },
     {
-        type: 'input',
+        type: 'confirm',
+        name: 'confirmInstallation',
+        message: "Do you need to install any dependencies to run this app?",
+        default: true
+    },
+    {
+        type: 'checkbox',
         name: 'Installation',
-        message: "Do you need to install any dependencies to run this app?"
-    },
+        message: 'Which dependencies do you need to install?',
+        choices : [
+            "lodash",
+            "ora",
+            "inquirer",
+            "chalk",
+            "other-enter dependency after README is generated",
+            ],
+         when: ({ confirmInstallation }) => {
+          if (confirmInstallation) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+      },
     {
-        type: "list",
+        type: "checkbox",
         name: "License",
         message: "Please select which license you would like to use.",
         choices : [
@@ -72,7 +93,9 @@ const questions = [
             "BSD 3",
             "GVL-GPL 3.0",
             "MIT",
-            "None"
+            "None",
+            "GNU Lesser General Public v2.1",
+            "Mozilla Public 2.0",
         ],
     },
     {
@@ -81,22 +104,57 @@ const questions = [
         message: "What do I need to type in the terminal for this to run?"
     },
     {
-        type: 'input',
-        name: 'Credits',
-        message: "Who contributed to the completion of this project?"
+        type: 'confirm',
+        name: 'confirmScreenshot',
+        message: "Would you like to add a screenshot?",
+        default: true
     },
     {
-        type: "list",
-        name: "Questions",
-        message: "What's the best way to contact you with issues or concerns?",
-        choices : [
-            "E-mail",
-            "GitHub",
-        ],
+        type: 'input',
+        name: 'Screenshot',
+        message: 'Add a link to your screenshot.',
+        when: ({ confirmScreenshot }) => {
+          if (confirmScreenshot) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+      },
+    {
+        type: 'confirm',
+        name: 'confirmCredits',
+        message: "Did anyone else contribute to the completion of this project?",
+        default: true
+    },
+    {
+        type: 'input',
+        name: 'Credits',
+        message: 'Who would you like to recognize for helping with this project?.',
+        when: ({ confirmCredits }) => {
+          if (confirmCredits) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'contribution',
+        message: 'How should people contribute to this project?',
+        validate: contributionInput => {
+            if (contributionInput) {
+                return true;
+            } else {
+                console.log('You need to provide information on how to contribute to the project!');
+                return false;
+            }
+        }
     },
     {
         type: "input",
-        message: "E-mail",
+        message: "Please enter your E-mail address.",
         name: "Email",
         validate: function (data) {
             if (data.length < 1) {

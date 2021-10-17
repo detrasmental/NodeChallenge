@@ -1,16 +1,12 @@
-<<<<<<< HEAD
 
   
 # NodeChallenge
-![NPM](https://img.shields.io/npm/l/m)
+![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/inquirer)
 ![GitHub Issues](https://img.shields.io/github/issues-raw/detrasmental/NodeChallenge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/detrasmental/NodeChallenge)
+![Lines of code](https://img.shields.io/tokei/lines/github/detrasmental/NodeChallenge)
 
-=======
-# NodeChallenge
-![NPM](https://img.shields.io/npm/l/m)
-![GitHub Issues](https://img.shields.io/github/issues-raw/detrasmental/NodeChallenge)
 
->>>>>>> 3814a5c6487f3f09b71644f5868212ed415a465a
 ## Repository
 https://github.com/detrasmental/NodeChallenge
 
@@ -20,33 +16,35 @@ A command-line application that dynamically generates a professinal README.md fi
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
+- [Screenshot](#Screenshot)
 - [License](#License)
 - [Credits](#Credits)
+- [Contribution](#contribution)
 - [Contact Me](#Questions)
 
 ## Installation:
-You must have the following dependencies installed to run this application.
-<<<<<<< HEAD
-yes. Inquire
-=======
-inquire
->>>>>>> 3814a5c6487f3f09b71644f5868212ed415a465a
+You must have the following dependencies installed to run this application.<br>
+inquirer,chalk
 
 ## Usage
-To use this application, type [node index.js] in the terminal.
+To use this application, type [node index] in the terminal.
+
+## Screenshot
+ ./images/screenshot.jpg
+
+## How to Contribute
+Github
 
 ## License
-![badge](https://img.shields.io/badge/license-MIT)
-This application is covered by the MIT license. 
+
+![license](https://img.shields.io/badge/license-APACHE 2.O-green)
+
+This application is covered by the APACHE 2.O license. 
 
 ## Credits
-<<<<<<< HEAD
-All the internet
-=======
-Everyone!
->>>>>>> 3814a5c6487f3f09b71644f5868212ed415a465a
+Jesus, Mary AND Joesph
 
 ## Contact Me
 Find me on GitHub: [detrasmental](https://github.com/detrasmental)
 
-Email me with any questions: detra.gordon76@gmail.com
+Email me with any questions: detra.gordon@gmail.com
