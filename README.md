@@ -20,7 +20,7 @@ A command-line application that dynamically generates a professinal README.md fi
 - [Screenshot](#Screenshot)
 - [License](#License)
 - [Credits](#Credits)
-- [Contribution](#contribution)
+- [Contribution](#Contributes)
 - [Contact Me](#Questions)
 
 ## Installation:
@@ -36,7 +36,7 @@ To use this application, after installing required dependencies, type [node inde
 
 
 
-## How to Contribute
+## Contributes
 Contribute here! Feel free to fork and make pull requests to your hearts content.
 
 ## License
