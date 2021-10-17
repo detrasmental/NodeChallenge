@@ -30,6 +30,7 @@ inquirer
 To use this application, type [node index] in the terminal.
 
 ## Screenshot
+
 https://github.com/detrasmental/NodeChallenge/blob/main/images/screenshot.JPG
 
 
