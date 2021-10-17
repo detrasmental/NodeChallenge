@@ -11,7 +11,8 @@
 https://github.com/detrasmental/NodeChallenge
 
 ## Description
-A command-line application that dynamically generates a professinal README.md file from a user's input using the Inquirer package.
+A command-line application that dynamically generates a professinal README.md file from a user's input using the Inquirer package. This very README was created using this application.
+
 ## Table of Contents
 - [Description](#Description)
 - [Installation](#Installation)
@@ -23,26 +24,27 @@ A command-line application that dynamically generates a professinal README.md fi
 - [Contact Me](#Questions)
 
 ## Installation:
-You must have the following dependencies installed to run this application.<br>
-inquirer
+1. Fork repository
+2. Clone repository 
+3. From the terminal, run npm install to install required dependencies (inquirer, fs)
 
 ## Usage
-To use this application, type [node index] in the terminal.
+To use this application, after installing required dependencies, type [node index] in the terminal (minus the []).
 
 ## Screenshot
+![screenshot](https://user-images.githubusercontent.com/85942489/137644877-6d2a77e5-7ac6-4706-9030-c3b234f173a9.JPG)
 
-https://github.com/detrasmental/NodeChallenge/blob/main/images/screenshot.JPG
 
 
 ## How to Contribute
-Github
+Contribute here! Feel free to fork and make pull requests to your hearts content.
 
 ## License
 
-This application is covered by the APACHE 2.O license. 
+This application is covered by the MIT license. 
 
 ## Credits
-Jesus H. Christ!
+Jesus H. Christ! No seriously, this was hard. I spent A LOT of time on YouTube and Github watching tutorials and reading repositories on how to add certain aspects. 
 
 ## Contact Me
 Find me on GitHub: [detrasmental](https://github.com/detrasmental)
