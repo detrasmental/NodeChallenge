@@ -74,6 +74,7 @@ const questions = [
             "ora",
             "inquirer",
             "chalk",
+            "fs",
             "other-enter dependency after README is generated",
             ],
          when: ({ confirmInstallation }) => {
@@ -187,4 +188,6 @@ function init() {
     })
 }
 // Function call to initialize app
+init();
+
 init();
